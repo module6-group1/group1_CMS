@@ -10,7 +10,7 @@
 
 
     <header class="center">
-        Samyu Miller's Blog
+        Group One's Blog
     </header>
     <div class="center-blog-post">
         <p>BLOG POSTS</p>
