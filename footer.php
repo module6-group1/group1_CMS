@@ -1,4 +1,4 @@
 <footer>
-        Follow Me 
+        Follow Us :) 
     </footer>
     
