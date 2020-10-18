@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 input{
     display: block;
@@ -29,8 +30,14 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    overflow: scroll;
+    background-color: blue;
+    
+  }
+
+  ul.list{
+      display: grid;
+      grid-template: 1fr 1fr;
   }
   
   nav ul li {
@@ -72,7 +79,7 @@ body {
   }
 
 .post-card{
-    border: 1px solid black;
+    border: 1px solid blue;
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -98,7 +105,7 @@ main li{
   footer{
       position: sticky;
       bottom: 0;
-      background-color: black;
+      background-color: blue;
       color: white;
       width: 99%;
       text-align: center;
