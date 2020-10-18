@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+    display: block;
+}
+label{
+    display: block;
+}
+button{
+    display: block;
+}
+/*
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  } */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #111;
+  } 
+  .center {
+   
+    width: auto;
+    height: 50px;
+    margin: 50px auto 0 ;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .center-blog-post {
+   
+    width: auto;
+    height: 50px;
+    margin: 50px auto 0 ;
+    text-align: center;
+    font-size: 2rem;
+    border: 5px solid black;
+  }
+  
+  .center-blog-post p {
+      margin: 5px 0 0;
+      padding: 0;
+  }
+
+.post-card{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+    
+}
+main.postBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+main li{
+    list-style: none;
+    
+
+    
+  }
+  main li a{
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  footer{
+      position: sticky;
+      bottom: 0;
+      background-color: black;
+      color: white;
+      width: 99%;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 10px;
+      margin: auto;
+  }
+  
+.post-one-main{
+    width: 800px;
+    margin: auto;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+form {
+    margin-top: 50px;
+}
+.formStyle{
+    width: 500px;
+    margin: auto;
+
+}
+
+button.hiThereButton {
+    display: none;
+}
+
+#editor {
+    height: 300px;
+}
+
