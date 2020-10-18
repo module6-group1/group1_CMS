@@ -20,8 +20,8 @@
         <label for="content">Content</label>
 
   
-       <!-- <textarea name="" id="content" cols="30" rows="10"></textarea> -->
-        <div id="editor"></div>
+       <textarea name="content" id="content" cols="30" rows="10"></textarea>
+       
 
         <button id="submit">Submit</button>
 
